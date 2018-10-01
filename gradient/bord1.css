@@ -1,0 +1,22 @@
+.one {
+    width: 150px;
+    height: 150px;
+    background-color: #ffff00;
+    border: 10px solid #89c3eb;
+    position: relative;
+    border-radius: 5px;
+}   
+
+.round {
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    border: 5px;
+    border-radius: 100px; 
+    margin-left: 25px;
+    margin-right: 20px;
+    margin-top: 25px;
+    display: block;
+    background: -webkit-radial-gradient(center, ellipse cover, #ebf1f6 0%,#abd3ee 42%,#89c3eb 73%,#d5ebfb 100%);
+    text-align: center;
+}
